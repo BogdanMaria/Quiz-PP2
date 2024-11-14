@@ -180,4 +180,12 @@ document.addEventListener('DOMContentLoaded', () => {
         quizContainer.classList.remove('hidden'); // Show quiz container
         
     };
+
+     // Function to restart the quiz
+     function restartQuiz() {
+        startContainer.classList.remove('hidden');
+        resultElement.classList.add('hidden');
+        playerNameInput.value = ""; // Clear the player name input
+    }
+
 });
