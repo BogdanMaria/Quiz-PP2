@@ -60,3 +60,21 @@ On the last page you have your score displayed and the button to restart the qui
 ![Name and score page](readme-folder/score-page.png)
 
 You are not able to start the game without inputing a name. After selecting an answer you get the feedback if it is wright or wrong and you are not able to select another answer. After selecting next question button the next question will be displayed. At the end you have your score displayed.
+
+# Technologies
+- HTML to accomplish the structure of the website.
+- CSS to style the website.
+- [gitpod](https://gitpod.io/) IDE to develop the website.
+- [GitHub](https://GitHub.com/) to host the source code and GitHub Pages to deploy and host the live site.
+- Git to provide version control (to commit and push code to the repository).
+- [Google Fonts](https://fonts.google.com/) for typography.
+- [Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools) for debugging, inspecting pages' elements and testing layout.
+- [Favicon.cc](https://www.favicon.cc/) to create the website favicon.
+- [Color](https://coolors.co/image-picker) to source colour palette.
+- [Balsamiq](https://balsamiq.com/wireframes/) to design wireframes.
+- [Amiresponsive](https://ui.dev/amiresponsive) to create the Mockup image in this README.
+- Google Chrome's [Lighthouse](https://developers.google.com/web/tools/lighthouse) to assess accessibility.
+- [W3C HTML Markup Validator](https://validator.w3.org/) to validate HTML code.
+- [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS code.
+- [Chat GPT](https://chat.openai.com/auth/login) to generate the questions for the quiz.
+- Code Institute's Gitpod Template to generate the workspace for the project.
