@@ -199,8 +199,22 @@ document.addEventListener('DOMContentLoaded', () => {
         // Show the first question
         showQuestion(selectedQuestions[currentQuestionIndex]);
  
-        
     };
+
+    // Function to show a question
+    function showQuestion(question) {
+        questionElement.innerText = question.question;
+        answersElement.innerHTML = '';
+        feedbackElement.classList.add('hidden'); // Hide feedback when showing new question
+        question.answers.forEach(answer => {
+            const button = document.createElement('button');
+            button.innerText = answer.text;
+            button.classList.add('answer-button');
+            button.addEventListener('click', () => selectAnswer(answer));
+            answersElement.appendChild(button);
+        });
+    }
+
 
      // Function to restart the quiz
      function restartQuiz() {
