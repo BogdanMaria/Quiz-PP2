@@ -215,6 +215,19 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Function to handle answer selection
+    function selectAnswer(answer) {
+        feedbackElement.classList.remove('hidden'); // Show feedback element
+        if (answer.correct) {
+            score++;
+            feedbackElement.innerText = "Correct!";
+            feedbackElement.className = 'correct'; // Set correct class for styling
+        } else {
+            feedbackElement.innerText = "Incorrect!";
+            feedbackElement.className = 'incorrect'; // Set incorrect class for styling
+        }
+
+
 
      // Function to restart the quiz
      function restartQuiz() {
@@ -222,5 +235,6 @@ document.addEventListener('DOMContentLoaded', () => {
         resultElement.classList.add('hidden');
         playerNameInput.value = ""; // Clear the player name input
     }
+    
 
 });
