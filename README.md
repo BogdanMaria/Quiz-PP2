@@ -119,3 +119,32 @@ on multiple devices:
   - Hp Omen,
   - Dell Inspirion
 Certain minor differences were detected, but no issues affected the overall performance.
+
+## Automated Testing
+
+1. [W3 Markup Validation](https://validator.w3.org/) - HTML Validation
+All pages were run through HTML Validator. No errors were detected.
+2. [W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - CSS Validation
+CSS Stylesheet was run through CSS Validator. No errors were detected.
+3. [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
+
+#### Home Page
+Mobile
+![Home Mobile](readme-folder/lh-main-mob.png)
+Desktop
+![Home Desktop](readme-folder/lh-main-desk.png)
+#### Question
+Mobile
+![Question Mobile](readme-folder/lh-question-mob.png)
+Desktop
+![Question Desktop](readme-folder/lh-question-desk.png)
+#### Feedback
+Mobile
+![Feedback Mobile](readme-folder/lh-feedback-mob.png)
+Desktop
+![Feedback Desktop](readme-folder/lh-feedback-desk.png)
+#### Score
+Mobile
+![Score Mobile](readme-folder/lh-score-mob.png)
+Desktop
+![Score Desktop](readme-folder/lh-score-desk.png)
