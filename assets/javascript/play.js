@@ -226,6 +226,19 @@ document.addEventListener('DOMContentLoaded', () => {
             feedbackElement.innerText = "Incorrect!";
             feedbackElement.className = 'incorrect'; // Set incorrect class for styling
         }
+        // Disable all answer buttons after one selection
+        const buttons = answersElement.getElementsByTagName('button');
+        for (let button of buttons) {
+            button.disabled = true; // Disable all answer buttons
+        }
+        
+        if (currentQuestionIndex < selectedQuestions.length - 1) {
+            nextButton.classList.remove('hidden');
+        } else {
+            showResult();
+        }
+    }
+
 
 
 
