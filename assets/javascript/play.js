@@ -239,8 +239,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-
-
+     // Function to show the result
+     function showResult() {
+        quizContainer.classList.add('hidden');
+        resultElement.classList.remove('hidden');
+        playerNameResult.innerText = playerName; // Display the player's name
+        scoreElement.innerText = `Your score: ${score} out of ${selectedQuestions.length}`; // Show the score
 
      // Function to restart the quiz
      function restartQuiz() {
