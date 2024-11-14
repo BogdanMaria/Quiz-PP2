@@ -148,3 +148,9 @@ Mobile
 ![Score Mobile](readme-folder/lh-score-mob.png)
 Desktop
 ![Score Desktop](readme-folder/lh-score-desk.png)
+
+# Credits
+## Content 
+The questions used in the quiz game have been generated using [Chat GPT](https://chat.openai.com/auth/login).
+## Media
+The favicon.ico has been created by me.
