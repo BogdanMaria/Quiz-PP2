@@ -149,6 +149,18 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentQuestionIndex = 0;
     let score = 0;
     let playerName = "";
+    let shuffledQuestions = []; // Declare shuffledQuestions at a higher scope
+    let selectedQuestions = []; // To hold the selected questions for the quiz
+
+    // Shuffle the quiz questions
+    function shuffleQuestions(questions) {
+        for (let i = questions.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [questions[i], questions[j]] = [questions[j], questions[i]];
+        }
+        return questions;
+    }
+
 
     // Get elements from the DOM
     const startContainer = document.getElementById('start-container');
@@ -178,6 +190,15 @@ document.addEventListener('DOMContentLoaded', () => {
         feedbackElement.classList.add('hidden'); // Hide feedback at the start
         startContainer.classList.add('hidden'); // Hide start container
         quizContainer.classList.remove('hidden'); // Show quiz container
+        // Shuffle the questions before starting the quiz
+        shuffledQuestions = shuffleQuestions([...quizQuestions]); // Assign shuffled questions to global variable
+
+        // Select only 5 questions
+        selectedQuestions = shuffledQuestions.slice(0, 5); // Get the first 5 shuffled questions
+ 
+        // Show the first question
+        showQuestion(selectedQuestions[currentQuestionIndex]);
+ 
         
     };
 
