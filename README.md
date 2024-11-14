@@ -78,3 +78,25 @@ You are not able to start the game without inputing a name. After selecting an a
 - [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS code.
 - [Chat GPT](https://chat.openai.com/auth/login) to generate the questions for the quiz.
 - Code Institute's Gitpod Template to generate the workspace for the project.
+
+# Deployment
+This project was deployed to GitHub pages. The steps to deploy are as follows:
+1. Log into GitHub.
+2. Select `Quiz-pp2` from the list of repositories.
+3. Select `Settings` From the Repositories sub-headings.
+4. In the left side menu select `Pages` from `Code and automation` section.
+5. Under the `Source` heading in the dropdown menu select `main`.
+6. A second drop-down menu should remain with the default value `/(root)`.
+7. Press `Save`.
+8. A message that the website is ready to be deployed will appear, refresh the page and the link to the deployed site will be available in a green sub-section on the top of the page.
+9. Click on the link to go to the live deployed page.
+The live link can be found [here](https://bogdanmaria.github.io/Quiz-pp2/).
+## How to run this project Locally
+- **Clone the repository**
+1. Navigate to the GitHub Repository `BogdanMaria/Quiz-pp2`.
+2. Click the `Code` drop-down menu.
+3. Click the `HTTPS` sub-heading under the `Clone` heading.
+4. Copy the link.
+5. Open an IDE of your choice (VSCode, Atom, Komodo, etc).
+6. Open a terminal in the directory of your choice, type `git clone` and paste the link.
+7. A clone of the repository will now be created on your machine.
