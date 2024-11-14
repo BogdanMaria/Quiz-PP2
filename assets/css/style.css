@@ -23,6 +23,27 @@ button {
     margin-top: 20px;
     cursor: pointer;
 }
+.hidden {
+    display: none;
+}
+
+#answers {
+    margin-top: 20px;
+}
+
+#feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
 
 #start-container {
     text-align: center;
