@@ -1,0 +1,35 @@
+body {
+    font-family: 'Young Serif', serif;
+    color: #16151c;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #8A2BE2;
+    border-radius: 10px;
+    background-color: #D2BAED;
+    width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#start-container {
+    text-align: center;
+}
+
+#player-name {
+    margin-top: 10px;
+    padding: 5px;
+    width: 200px;
+}
