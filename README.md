@@ -37,4 +37,10 @@ Has been used for quiz container background.
 Has been used for the border of the quiz container.
 
 
-
+### Wireframes
+#### Home
+![Home wifreframe](readme-folder/home.png)
+#### Questions and answers
+![Questions and answers wireframe](readme-folder/play.png)
+#### Your Score and name
+![Score and username wireframe](readme-folder/score.png)
