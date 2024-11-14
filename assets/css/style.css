@@ -19,9 +19,12 @@ body {
 }
 
 button {
+    font-family: 'Young Serif', serif;
+    color: #16151c;
     padding: 10px 20px;
     margin-top: 20px;
     cursor: pointer;
+    background-color: #f0f8ff
 }
 .hidden {
     display: none;
