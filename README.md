@@ -44,3 +44,19 @@ Has been used for the border of the quiz container.
 ![Questions and answers wireframe](readme-folder/play.png)
 #### Your Score and name
 ![Score and username wireframe](readme-folder/score.png)
+
+## Features
+### Main Page
+On main page you have to input your name and can select to play.
+![Main page](readme-folder/main-page.png)
+### Play Page
+On the play page you have the question of the game and the multiple answers.
+![Play page](readme-folder/game-page.png)
+### Feedback 
+After selecting an answer you get the feedback if it is correct or incorrect and you have a button to display the next question.
+![Feedback page](readme-folder/feedback-page.png)
+### Name and score
+On the last page you have your score displayed and the button to restart the quiz.
+![Name and score page](readme-folder/score-page.png)
+
+You are not able to start the game without inputing a name. After selecting an answer you get the feedback if it is wright or wrong and you are not able to select another answer. After selecting next question button the next question will be displayed. At the end you have your score displayed.
