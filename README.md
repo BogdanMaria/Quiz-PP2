@@ -35,4 +35,6 @@ Has been used for background.
 Has been used for quiz container background.
 #### 8A2BE2
 Has been used for the border of the quiz container.
-### Wireframes
+
+
+

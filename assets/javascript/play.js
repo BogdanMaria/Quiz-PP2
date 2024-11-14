@@ -244,7 +244,7 @@ document.addEventListener('DOMContentLoaded', () => {
         quizContainer.classList.add('hidden');
         resultElement.classList.remove('hidden');
         playerNameResult.innerText = playerName; // Display the player's name
-        scoreElement.innerText = `Your score: ${score} out of ${selectedQuestions.length}`; // Show the score
+        scoreElement.innerText = `your score: ${score} out of ${selectedQuestions.length}`; // Show the score
      }
 
      // Function to restart the quiz
