@@ -100,3 +100,22 @@ The live link can be found [here](https://bogdanmaria.github.io/Quiz-pp2/).
 5. Open an IDE of your choice (VSCode, Atom, Komodo, etc).
 6. Open a terminal in the directory of your choice, type `git clone` and paste the link.
 7. A clone of the repository will now be created on your machine.
+
+# Testing
+## Manual Testing
+Design was tested manually in three browsers:
+- Chrome,
+- Firefox,
+- Safari,
+on multiple devices:
+- mobile devices
+  - iPhone 14,
+  - Samsung Galaxy S22 Ulta,
+  - Samsung Galaxy S21 Plus,
+- tablets
+  - Samsung Tab 9
+  - Ipad Air mini
+- laptops
+  - Hp Omen,
+  - Dell Inspirion
+Certain minor differences were detected, but no issues affected the overall performance.
