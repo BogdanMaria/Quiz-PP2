@@ -245,6 +245,7 @@ document.addEventListener('DOMContentLoaded', () => {
         resultElement.classList.remove('hidden');
         playerNameResult.innerText = playerName; // Display the player's name
         scoreElement.innerText = `Your score: ${score} out of ${selectedQuestions.length}`; // Show the score
+     }
 
      // Function to restart the quiz
      function restartQuiz() {
@@ -252,6 +253,14 @@ document.addEventListener('DOMContentLoaded', () => {
         resultElement.classList.add('hidden');
         playerNameInput.value = ""; // Clear the player name input
     }
-    
+
+    // Event listeners
+    startButton.addEventListener('click', startQuiz);
+    nextButton.addEventListener('click', () => {
+        currentQuestionIndex++;
+        showQuestion(selectedQuestions[currentQuestionIndex]); // Use selected questions
+        nextButton.classList.add('hidden');
+    });
+    restartButton.addEventListener('click', restartQuiz);
 
 });
