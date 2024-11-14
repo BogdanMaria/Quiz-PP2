@@ -146,6 +146,10 @@ document.addEventListener('DOMContentLoaded', () => {
             ]
         }
     ];
+    let currentQuestionIndex = 0;
+    let score = 0;
+    let playerName = "";
+
     // Get elements from the DOM
     const startContainer = document.getElementById('start-container');
     const quizContainer = document.getElementById('quiz-container');
@@ -159,4 +163,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const playerNameResult = document.getElementById('player-name-result');
     const startButton = document.getElementById('start-button');
     const playerNameInput = document.getElementById('player-name');
+
+     // Function to start the quiz
+     function startQuiz() {
+        playerName = playerNameInput.value.trim(); // Get the player's name
+        if (!playerName) {
+            alert("Please enter your name!"); // Alert if name is empty
+            return;
+        }
+        currentQuestionIndex = 0;
+        score = 0;
+        nextButton.classList.add('hidden');
+        resultElement.classList.add('hidden');
+        feedbackElement.classList.add('hidden'); // Hide feedback at the start
+        startContainer.classList.add('hidden'); // Hide start container
+        quizContainer.classList.remove('hidden'); // Show quiz container
+        
+    };
 });
